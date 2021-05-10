@@ -1,6 +1,7 @@
 # Webex Teams oAuth with refresh sample
 
-This sample shows how to use an integration to implement an oAuth flow with refresh tokens for Webex Teams. 
+This sample shows how to use an Webex Integration (https://developer.webex.com/docs/integrations) to implement an oAuth flow with refresh tokens 
+for Webex Teams. 
 To show a complete example of authenticating and performing Webex REST API calls, the sample application allows a user to 
 authenticate with Webex teams if they had not done so previously. If they have, it will look for a locally stored auth token and refresh it with 
 the refresh token if needed. If the refresh token has also expired, it will launch the full oAuth flow from the beginning. 
@@ -36,10 +37,10 @@ https://stackoverflow.com/questions/27771324/google-api-getting-credentials-from
 Once you clone the repository, edit the .env file to fill out the following configuration variables:
 
 **CLIENT_ID**     
-Set this variable to the Client ID from your integration
+Set this variable to the Client ID from your integration. See the [Webex Integrations](https://developer.webex.com/docs/integrations) documentation for more details.
 
 **CLIENT_SECRET**
-Set this variable to the Client Secret from your integration 
+Set this variable to the Client Secret from your integration. See the [Webex Integrations](https://developer.webex.com/docs/integrations)  documentation for more details.
 
 Also, in the main.py file, configure the following variable:
 
