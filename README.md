@@ -24,7 +24,7 @@ https://github.com/requests/requests-oauthlib/issues/324
 Example Oauth with Webex Teams:
 https://github.com/CiscoDevNet/webex-teams-auth-sample
 
-Waltkthrough including how to refresh tokens:
+Walkthrough including how to refresh tokens:
 https://developer.webex.com/blog/real-world-walkthrough-of-building-an-oauth-webex-integration
 
 Refresh token example:
