@@ -53,7 +53,7 @@ SCOPE = 'spark:all'
 #initialize variabes for URLs
 #REDIRECT_URL must match what is in the integration, but we will construct it below in __main__
 # so no need to hard code it here
-PUBLIC_URL='http://0.0.0.0:5000'
+PUBLIC_URL='http://0.0.0.0:5500'
 REDIRECT_URI=""
 
 
@@ -262,4 +262,4 @@ if __name__ == '__main__':
 
     print("Using PUBLIC_URL: ",PUBLIC_URL)
     print("Using redirect URI: ",REDIRECT_URI)
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5500, debug=True)

@@ -1,5 +1,5 @@
 certifi
-chardet==3.0.4
+chardet>=3.0.4
 click
 future
 idna
@@ -7,11 +7,11 @@ itsdangerous
 Jinja2
 MarkupSafe
 oauthlib
-requests==2.19.1
-requests-oauthlib==1.0.0
-requests-toolbelt==0.8.0
-urllib3==1.23
+requests
+requests-oauthlib
+requests-toolbelt
+urllib3
 webexteamssdk
 Werkzeug
-flask==1.1.1
+Flask>=2.2.2
 python-dotenv
